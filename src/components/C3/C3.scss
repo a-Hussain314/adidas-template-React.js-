@@ -1,0 +1,315 @@
+@import "../App.scss";
+
+@media (max-width:567px)
+{
+    .c3 {
+    padding: 70px 0px;
+}
+.c3 h1{
+    font-size: 1.09rem;
+}
+.c3 .img-con2 {
+    transition: 0.4s all ease-in-out;
+    perspective: 1000px;
+    overflow: hidden;
+
+    img{
+        transition: 2s all ease-in-out;
+        transform: translateZ(80px);
+        width: 100%;
+    }
+
+    span{
+        bottom: 8%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+
+    a{
+        transition: 0.25s all ease-in-out;
+        bottom: 18%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: white;
+        font-size: 2.8vw;
+        font-weight: 800;
+    }
+    a:hover{
+        opacity: 100%;
+        text-decoration: none;
+    }
+
+}
+    .c3 .img-con2:hover img{
+        transform: translateZ(0px); 
+    }
+    .c3 .w-85{
+    width: 100%;
+    }
+
+}
+// --------------------------------------------------------------------------------------------------
+@media(min-width: 577px) and (max-width:767px )
+{
+    .c3 {
+    padding: 70px 0px;
+}
+h1{
+    font-size: 1.5rem;
+}
+.c3 .img-con2 {
+    transition: 0.4s all ease-in-out;
+    perspective: 1000px;
+    overflow: hidden;
+
+    img{
+        transition: 2s all ease-in-out;
+        transform: translateZ(80px);
+        width: 100%;
+    }
+
+    span{
+        bottom: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    a{
+        transition: 0.25s all ease-in-out;
+        bottom: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 18px;
+        font-weight:900;
+    }
+    a:hover{
+        opacity: 100%;
+        text-decoration: none;
+    }
+
+}
+    .c3 .img-con2:hover img{
+        transform: translateZ(0px); 
+    }
+    .c3 .w-85{
+    width: 100%;
+    }
+
+}
+// ----------------------------------------------------------------------------------------------------
+@media(min-width: 768px) and (max-width:991px )
+{
+    .c3 {
+    padding: 70px 0px;
+}
+
+.c3 .img-con2 {
+    transition: 0.4s all ease-in-out;
+    perspective: 1000px;
+    overflow: hidden;
+
+    img{
+        transition: 2s all ease-in-out;
+        transform: translateZ(80px);
+        width: 100%;
+    }
+
+    span{
+        bottom: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    a{
+        transition: 0.25s all ease-in-out;
+        bottom: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 24px;
+        font-weight:900;
+    }
+    a:hover{
+        opacity: 100%;
+        text-decoration: none;
+    }
+
+}
+    .c3 .img-con2:hover img{
+        transform: translateZ(0px); 
+    }
+    .c3 .w-85{
+    width: 100%;
+    }
+
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 992px) and (max-width:1199px )
+{
+    .c3 {
+    padding: 70px 0px;
+}
+
+.c3 .img-con2 {
+    transition: 0.4s all ease-in-out;
+    perspective: 1000px;
+    overflow: hidden;
+
+    img{
+        transition: 2s all ease-in-out;
+        transform: translateZ(80px);
+        width: 100%;
+    }
+
+    span{
+        bottom: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    a{
+        transition: 0.25s all ease-in-out;
+        bottom: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 24px;
+        font-weight:900;
+    }
+    a:hover{
+        opacity: 100%;
+        text-decoration: none;
+    }
+
+}
+    .c3 .img-con2:hover img{
+        transform: translateZ(0px); 
+    }
+    .c3 .w-85{
+    width: 85%;
+    }
+
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 1200px)
+{
+    .c3 {
+    padding: 70px 0px;
+}
+
+.c3 .img-con2 {
+    transition: 0.4s all ease-in-out;
+    perspective: 1000px;
+    overflow: hidden;
+
+    img{
+        transition: 2s all ease-in-out;
+        transform: translateZ(80px);
+        width: 100%;
+    }
+
+    span{
+        bottom: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    a{
+        transition: 0.25s all ease-in-out;
+        bottom: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 30px;
+        font-weight:900;
+    }
+    a:hover{
+        opacity: 100%;
+        text-decoration: none;
+    }
+
+}
+    .c3 .img-con2:hover img{
+        transform: translateZ(0px);
+}        
+.c3 .w-85{
+    width: 85%;
+    }
+
+}
+
+
+// -------------------------------
+
+.c3{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+// utilities start 
+
+.c3 .bg-black{
+    background-color:$primary-color!important;
+}
+
+.c3 .over-hidden {
+    overflow: hidden !important;
+}
+
+
+.c3 .w-fa{
+    width: -webkit-fill-available;
+}
+
+.c3 .fw-100{
+    font-weight: 100 !important;
+}
+
+.c3 .fw-300{
+   font-weight: 300 !important;
+}
+
+.c3 .fw-400{
+   font-weight: 400 !important;
+}
+
+.c3 .fw-500{
+   font-weight: 500 !important;
+}
+
+.c3 .fw-600{
+   font-weight: 600 !important;
+}
+
+.c3 .fw-700{
+   font-weight: 700 !important;
+}
+
+.c3 .fw-800{
+   font-weight: 800 !important;
+}
+
+.c3 .fw-900{
+   font-weight: 900 !important;
+}
+
+//  utilities end

@@ -1,0 +1,290 @@
+@import "../App.scss";
+
+
+@media (max-width:575px)
+{
+    .c8{
+        
+        padding: 50px 15px 30px 15px;
+        h1{
+            font-size: 0.9rem;
+        }
+        .word{
+            padding-top: 40px;
+            font-size: 3.5vw;
+            line-height: normal;
+        } 
+        
+        .heros{
+            position: relative;
+            bottom: 0px;
+        }
+        
+        
+    
+    }
+
+    .c8-2{
+        padding: 30px 10px 10px 10px;
+        .btn-box{
+            padding: 30px 10px 10px;
+            ;
+        }
+        h1{
+            font-size: 1.2rem;
+        }
+    }
+    
+    
+    .yellow{
+        background-image:url("../../images/yellow.png");
+        background-size: cover;
+        h1{
+            font-weight: 800;
+            font-size:4vw;
+            margin-bottom: 15px;
+        }
+        color: $primary-color;
+    }
+}
+// --------------------------------------------------------------------------------------------------
+@media(min-width: 576px) and (max-width:767px )
+{
+    .c8{
+        
+        padding: 60px 0px 75px 60px;
+        h1{
+            font-size: 1.8rem;
+        }
+        .word{
+            padding-top: 65px;
+            font-size: 18px;
+            line-height: normal;
+        } 
+        
+        .heros{
+            position: relative;
+            bottom: 0px;
+        }
+        .btn-box{
+            padding: 40px 10px
+            ;
+        }
+        
+    
+    }
+    .c8-2{
+        padding: 80px 10px 60px 10px;
+        .btn-box{
+            padding: 40px;
+        }
+        h1{
+            font-size: 2rem;
+        }
+    }
+    
+    .yellow{
+        background-image:url("../../images/yellow.png");
+        background-size: cover;
+        h1{
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+        color: $primary-color;
+    }
+}
+// ----------------------------------------------------------------------------------------------------
+@media(min-width: 768px) and (max-width:991px )
+{
+    .c8{
+        
+        padding: 60px 0px 60px 80px;
+        h1{
+            font-size: 2rem;
+        }
+        .word{
+            padding-top: 30px;
+            font-size: 20px;
+            line-height: normal;
+        } 
+        
+        .heros{
+            position: relative;
+            bottom: 0px;
+        }
+        .btn-box{
+            padding: 80px
+            ;
+        }
+        
+    
+    }
+    .c8-2{
+        padding: 80px 0px 60px 20px;
+        .btn-box{
+            padding: 80px 20px;
+        }
+        h1{
+            font-size: 2.2rem;
+        }
+    
+    }
+    .yellow{
+        background-image:url("../../images/yellow.png");
+        background-size: cover;
+        h1{font-weight: 800;}
+        color: $primary-color;
+    }
+    
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 992px) and (max-width:1199px )
+{
+    .c8{
+        padding: 80px 0px 60px 20px;
+        .word{
+            padding-top: 125px;
+            font-size: 28px;
+            line-height: normal;
+        } 
+        
+        .heros{
+            position: relative;
+            bottom: 28px;
+        }
+        .btn-box{
+            padding: 80px
+            ;
+        }
+
+    }
+    .c8-2{
+        padding: 80px 40px 60px 110px;
+        .btn-box{
+            padding: 80px 30px;
+        }
+    }
+    
+    
+    .yellow{
+        background-image:url("../../images/yellow.png");
+        background-size: cover;
+        h1{font-weight: 800;}
+        color: $primary-color;
+    }
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 1200px)
+{
+    .c8{
+        padding: 80px 40px 60px 110px;
+        .word{
+            padding-top: 125px;
+            font-size: 28px;
+            line-height: normal;
+        } 
+        
+        .heros{
+            position: relative;
+            bottom: 28px;
+        }
+        .btn-box{
+            padding: 80px
+            ;
+        }
+        
+    
+    }
+
+    .c8-2{
+        padding: 80px 40px 60px 110px;
+        .btn-box{
+            padding: 80px
+            ;
+        }
+    }
+    
+    .yellow{
+        background-image:url("../../images/yellow.png");
+        background-size: cover;
+        h1{font-weight: 800;}
+        color: $primary-color;
+    }
+   
+}
+
+
+
+
+
+//--------------------------------------------------------------------------------------
+.c8{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+// utilities start 
+
+.c8 .bg-black{
+    background-color: $primary-color !important;
+}
+.c8 .text-black{
+    color:$primary-color !important;
+}
+
+.c8 .opacity85{
+    opacity: 85%;
+}
+
+.c8 .over-hidden {
+    overflow: hidden !important;
+}
+
+.c8 .w-85{
+    width: 85%;
+}
+.c8 .w-fa{
+    width: -webkit-fill-available;
+}
+
+.c8 .ls-3{
+    letter-spacing: 3px !important;
+}
+
+.c8 .fw-100{
+    font-weight: 100 !important;
+}
+
+.c8 .fw-300{
+   font-weight: 300 !important;
+}
+
+.c8 .fw-400{
+   font-weight: 400 !important;
+}
+
+.c8 .fw-500{
+   font-weight: 500 !important;
+}
+
+.c8 .fw-600{
+   font-weight: 600 !important;
+}
+
+.c8 .fw-700{
+   font-weight: 700 !important;
+}
+
+.c8 .fw-800{
+   font-weight: 800 !important;
+}
+
+.c8 .fw-900{
+   font-weight: 900 !important;
+}
+ 
+//  utilities end
+
+
+
+

@@ -1,0 +1,88 @@
+@import "../App.scss";
+
+
+.c7{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+// utilities start 
+
+.c7 .bg-black{
+    background-color: $primary-color !important;
+}
+.c7 .text-black{
+    color:black $primary-color;
+}
+
+.c7 .opacity85{
+    opacity: 85%;
+}
+
+.c7 .over-hidden {
+    overflow: hidden !important;
+}
+
+.c7 .w-85{
+    width: 85%;
+}
+.c7 .w-fa{
+    width: -webkit-fill-available;
+}
+
+
+.c7 .fw-100{
+    font-weight: 100 !important;
+}
+
+.c7 .fw-300{
+   font-weight: 300 !important;
+}
+
+.c7 .fw-400{
+   font-weight: 400 !important;
+}
+
+.c7 .fw-500{
+   font-weight: 500 !important;
+}
+
+.c7 .fw-600{
+   font-weight: 600 !important;
+}
+
+.c7 .fw-700{
+   font-weight: 700 !important;
+}
+
+.c7 .fw-800{
+   font-weight: 800 !important;
+}
+
+.c7 .fw-900{
+   font-weight: 900 !important;
+}
+ 
+//  utilities end
+
+// component styling start
+
+.c7{
+    padding-top: 80px;
+    z-index: -1 !important;
+    // padding-bottom: 140px;
+
+    .clouds3{
+        top: -15px;
+        left: 50%;
+        transform:translateX(-50%);
+        z-index: 99999;
+    }
+}
+
+// component styling end
+
+
+
+
+

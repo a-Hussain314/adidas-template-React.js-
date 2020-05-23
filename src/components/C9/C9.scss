@@ -1,0 +1,204 @@
+@import "../App.scss";
+
+
+@media (max-width:567px)
+{
+    .c9 .w-resp{
+        width: 100% !important;
+    }
+    .h6-resp{
+        font-size: 2.5vw;
+    }
+    .li-resp{
+        font-size: 2.2vw;
+        font-weight: 600;
+        margin-bottom:1px;
+    }
+    .mapped:nth-child(5){
+        display: none !important;
+    }
+}
+// --------------------------------------------------------------------------------------------------
+@media(min-width: 577px) and (max-width:767px )
+{
+    .c9 .w-resp{
+        width: 50% !important;
+    }
+    .h6-resp{
+        font-size: 1.85vw;
+    }
+    .li-resp{
+        font-size: 1.6vw;
+        font-weight: 500;
+        margin-bottom:5px;
+    }
+    
+}
+// ----------------------------------------------------------------------------------------------------
+@media(min-width: 768px) and (max-width:991px )
+{
+    .c9 .w-resp{
+        width: 33% !important;
+    }
+    .h6-resp{
+        font-size: 2.5vw;
+    }
+    .h6-resp{
+        font-size: 1.85vw;
+    }
+    .li-resp{
+        font-size: 1.25vw;
+        font-weight: 500;
+        margin-bottom:6px;
+    }
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 992px) and (max-width:1199px )
+{
+    .c9 .w-resp{
+        width: 20 !important;
+    }
+    .h6-resp{
+        font-size: 1.5vw;
+    }
+    .li-resp{
+        font-size: 1.1vw;
+        font-weight: 500;
+        margin-bottom:6px;
+    }
+   
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 1200px)
+{
+    .c9 .w-resp{
+        width: 20% !important;
+    }
+    .h6-resp{
+        font-size: 1.5vw;
+    }
+    .li-resp{
+        font-size: 0.9vw;
+        font-weight: 500;
+        margin-bottom:6px;
+    }
+   
+}
+
+
+// utilities start 
+
+.c9 .link-basic:hover {
+    text-decoration: none !important;
+}
+
+.c9 .of-hidden {
+    overflow: hidden !important;
+}
+
+.c9 .w-fa{
+    width: -webkit-fill-available;
+}
+
+
+
+.c9 .w-90{
+    width: 90% !important;
+}
+
+.c9 .neg-mt-1{
+    margin-top: -4px;
+}
+
+.c9 .c9 neg-mt-2{
+    margin-top: -16px;
+}
+
+.c9 .neg-mb-1{
+    margin-bottom: -4px;
+}
+
+.c9 .neg-mb-2{
+    margin-bottom: -12px;
+}
+
+.c9 .hover-text-red:hover{
+    color: $hover-color !important;
+}
+.c9 .text-grey{
+     color: $primary-light-color !important;
+ }
+
+.c9 .ls-1 {
+    letter-spacing: 0.75px;
+}
+
+.c9 .ls-0.5 {
+    letter-spacing: 0.50px;
+}
+
+.c9 .fs-12{
+    font-size: 12.5px;
+}
+
+.c9 .fs-14{
+    font-size: 14px;
+}
+
+ .c9 .fw-100{
+     font-weight: 100 !important;
+ }
+
+.c9 .fw-300{
+    font-weight: 300 !important;
+}
+
+.c9 .fw-400{
+    font-weight: 400 !important;
+}
+
+.c9 .fw-500{
+    font-weight: 500 !important;
+}
+
+.c9 .fw-600{
+    font-weight: 600 !important;
+}
+
+.c9 .fw-700{
+    font-weight: 700 !important;
+}
+
+.c9 .fw-800{
+    font-weight: 800 !important;
+}
+
+.c9 .fw-900{
+    font-weight: 900 !important;
+}
+
+.c9 .pointer{
+    cursor: pointer;
+}
+
+
+
+
+//  utilities end
+
+// component styling start
+
+.c9 {
+    background-color: $secondary-color;
+    color:  $primary-color;
+    border-bottom: 3px $secondary-color solid;
+    
+    h6 {
+        opacity: 0.9 !important;
+    }
+
+}
+
+
+// component styling end
+
