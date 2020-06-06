@@ -51,7 +51,7 @@ class App extends Component {
               <C3/>
 
               <LazyLoad once offset={100}  height={200}  >
-                <C4 headingTextAlign={"left"}  heading1={"best"} heading2={"selling"}/>
+                <C4 headingTextAlign={"center"} pl={"0rem"}  heading1={"trinding"} heading2={"this week"}/>
               </LazyLoad>
              
               <LazyLoad once offset={100}  height={200}  >
@@ -59,16 +59,14 @@ class App extends Component {
               </LazyLoad>
 
               <LazyLoad once offset={100}  height={200}  >
-                <C4 headingTextAlign={"left"}  heading1={"best"} heading2={"selling"}/>
+                <C4 headingTextAlign={"left"} pl={"3rem"}  heading1={"best"} heading2={"selling"}/>
               </LazyLoad>
               
               <LazyLoad once offset={100}  height={200}  >
                 <C6/>
               </LazyLoad>
 
-              <LazyLoad once offset={100}  height={200}  >
-                 <C7/>
-              </LazyLoad>
+                <C7/>
 
               <LazyLoad once offset={100}  height={200}  >
                  <C8/>

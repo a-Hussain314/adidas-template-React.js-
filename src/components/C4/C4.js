@@ -21,37 +21,37 @@ import picg7 from '../../images/g7.jpg';
 
 
 class C4 extends Component {
-    state = {
-        pics : [
-            [picg1, "250"],
-            [picg2, "350"],
-            [picg3, "150"],
-            [picg4, "450"],
-            [picg5, "250"],
-            [picg6, "300"],
-            [picg7, "400"]
-        ]
-        ,
-        // slider rendering config object 
-        responsive:{
-            0: {
-                items: 2,
-                margin:10
-            },
-            450: {
-                items: 2,
-                margin:20
-            },
-            600: {
-                items: 3,
-                margin:30
-            },
-            1000: {
-                items: 4,
-                margin:40
-            },
+    // img and price for every item
+    pics = [
+        [picg1, "250"],
+        [picg2, "350"],
+        [picg3, "150"],
+        [picg4, "450"],
+        [picg5, "250"],
+        [picg6, "300"],
+        [picg7, "400"]
+    ];
+    
+    // slider rendering config object 
+    responsive = {
+        0: {
+            items: 2,
+            margin:10
+        },
+        450: {
+            items: 2,
+            margin:20
+        },
+        600: {
+            items: 3,
+            margin:30
+        },
+        1000: {
+            items: 4,
+            margin:40
         },
     }
+    
     componentDidMount(){
         console.log("c4 loaded");
     }
@@ -60,14 +60,14 @@ class C4 extends Component {
         return (
             <>
             <div className="c4 text-center bkg-white position-relative over-hidden">
-                <h1 style={{textAlign:this.props.headingTextAlign}} className="text-uppercase text-black text-left text-sm-center pl-5 mx-0 mx-sm-5 mb-0 mb-sm-5">
+                <h1 style={{ textAlign:this.props.headingTextAlign, paddingLeft:this.props.pl }} className="text-uppercase text-black  mx-0 mx-sm-5 mb-0 mb-sm-5">
                     <span className="mx-1 py-1 px-2 bg-black text-white fw-600">{this.props.heading1}</span>
                     <span className="mx-1  fw-800">{this.props.heading2}</span>
                 </h1> 
 
-                <OwlCarousel className="owl-theme bkg-white" loop    center dots={false} responsive={this.state.responsive}>
+                <OwlCarousel className="owl-theme bkg-white" loop    center dots={false} responsive={this.responsive}>
 
-                    {this.state.pics.map((p,index)=>(
+                    {this.pics.map((p,index)=>(
                         <div key={index} className="item text-left pt-5 slider-item-hover pointer">
                             <div className="position-relative w-100 mb-0 mb-sm-4">
                                 <img alt="women clothes" src={p[0]}  className="faded w-100 mb-4"/>
